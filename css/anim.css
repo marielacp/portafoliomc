@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(209, 236, 236);
+}
+
+.container-general{
+  position:fixed;
+  background-color: red;
+  width: 10%;
+  height: 300px;
+}
+ul.affix {
+  top: 40px;
+}
+
+
+.img1{
+  width: 25rem;
+  height: 30rem;
+ margin: 0;
+  
+}
+.img2 {
+  width: 10rem;
+  margin: 0;
+}
+.img3 {
+  width: 7rem;
+  margin: 0;
+}
+.img4 {
+  width: 5rem;
+  margin: 0;
+}
+.img5 {
+  width: 4rem;
+  margin: 0;
+}
+.img6 {
+  width: 12rem;
+  margin: 0;
+}
+.letra{
+  color:blue;
+}
+.text-animation{
+  list-style: none;
+  position: absolute;
+  left:43%;
+  top:50%;
+  transform: translateX(-43%) translateY(-50%);
+}
+.text-animation li{
+display: inline-block;
+margin-left: 5px;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 300;
+font-size: 5em;
+color:#010d0e;
+opacity: 1;
+transition: all 2s ease;
+}
+.text-animation li:last-child{
+  margin-right: 0;
+}
+.text-animation.hidd{
+opacity: 1;
+}
+.text-animation.hidd li:nth-child(1) {transform: translateX(-200px) translateY(-150px);}
+.text-animation.hidd li:nth-child(2) {transform: translateX(20px) translateY(100px);}
+.text-animation.hidd li:nth-child(3) {transform: translateX(-150px) translateY(-80px);}
+.text-animation.hidd li:nth-child(4) {transform: translateX(10px) translateY(-200px);}
+.text-animation.hidd li:nth-child(5) {transform: translateX(-170px) translateY(200px);}
+.text-animation.hidd li:nth-child(6) {transform: translateX(10px) translateY(-20px);}
+.text-animation.hidd li:nth-child(7) {transform: translateX(-300px) translateY(200px);}
+.text-animation.hidd li:nth-child(8) {transform: translateX(20px) translateY(-200px);}
+.text-animation.hidd li:nth-child(9) {transform: translateX(30px) translateY(100px);}
+.text-animation.hidd li:nth-child(10) {transform: translateX(-130px) translateY(-80px);}
+.text-animation.hidd li:nth-child(11) {transform: translateX(10px) translateY(-200px);}
+.text-animation.hidd li:nth-child(12) {transform: translateX(300px) translateY(200px);}
+.text-animation.hidd li:nth-child(13) {transform: translateX(-120px) translateY(-200px);}
+.text-animation.hidd li:nth-child(14) {transform: translateX(100px) translateY(-130px);}
