@@ -4,68 +4,93 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <title>Portafolio</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/theme.min.css">
     <!--<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/anim.css">
-    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
-
-<body>
-   <div class="container-fluid">
-  <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>   
-        </button>   
-      </div>      
-      <div class="collapse navbar-collapse" id="navMain">
-        <ul class="nav navbar-nav pull-right">
-          <li class="active"><a href="home.html">INICIO</a></li>
-          <li><a href="views/sobremi.html">ACERCA DE MI</a></li>
-          <li><a href="views/proyectos.html">PROYECTOS</a></li>          
-          <li><a href="#">REDES</a></li> 
-          <li><a href="#">OTROS DATOS</a></li> 
+<!--menu-->
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col-sm-3 col-md-3 col-lg-3" id="inicio">
+      <div class="container-menu">
+      <h1 class="title-menu">BIENVENID@</h1>
+      <img src="assets/img/m.png" class="img-menu img-responsive center-block"  alt="">
+      <ul class="list-menu ">
+        <li id=""> <a href="#inicio"> INICIO       </a> </li>
+        <li> <a href="#acercademi" > ACERCA DE MI </a> </li>
+        <li> <a href=""> PROYECTOS    </a> </li>
+        <li> <a href=""> HOBBIES      </a> </li>
+        <li> <a href=""> REDES        </a> </li>
+        <li> <a href=""> OTROS        </a> </li>
+      </ul>
+    </div>
+    </div>
+    <div class="col-sm-9 col-md-9 col-lg-9" >
+      <div class="container-animation">
+        <ul class="text-animation hidd text-center">
+          <li> <img src="assets/img/m.png" class="img-responsive img1 " alt="">  </li>
+          <li> <img src="assets/img/a.png" class="img-responsive img2" alt="">  </li>
+          <li> <img src="assets/img/r.png" class="img-responsive img3" alt="">  </li>
+          <li> <img src="assets/img/i.png" class="img-responsive img4" alt="">  </li>
+          <li> <img src="assets/img/e.png" class="img-responsive img3" alt="">  </li>
+          <li> <img src="assets/img/l.png" class="img-responsive img5" alt="">  </li>
+          <li> <img src="assets/img/aa.png" class="img-responsive img6" alt="">  </li>
+          <li class="apellido">C</li>
+          <li class="apellido">E</li>
+          <li class="apellido">R</li>
+          <li class="apellido">N</li>
+          <li class="apellido">A</li>
+          <li> <img src="assets/img/line.png" class="img-responsive " alt="">  </li>
         </ul>
       </div>
     </div>
+    <div class="col-sm-9 col-md-9 col-lg-9" id="acercademi">    
+<!---->
+      <div id="elemento" class="container-acercademi animated slideInLeft">         
+        <span class="texto">Soy Mariela, egresada de la carrera de Ing. en Administración y Técnica en informática. Tome la decisión de apostar por el
+        cambio, me capacité como frontEnd y trabaje en mejorar mis habilidades blandas. Por mi experiencia con el usuario y mi empatía,
+        decidí desarrollarme como UX-Designer. Que es más que presentar soluciones fáciles, es interactuar con el usuario, observar
+        su problemática y crear soluciones ágiles, fáciles y amigables con el fin de mejorar su experiencia. Mis metas a corto plazo
+        son desarrollarme en el campo profesional y poner en práctica mis conocimientos, con cada experiencia obtenida, seguir mejorando
+        mis habilidades así mismo continuar especializándome más a fondo como UX.       
+        </span>
+      </div>
+      </div>
   </div>
 </div>
-
-</div>
-
-    <ul class="text-animation hidd">
-        <li> <img src="assets/img/m.png" class="img-responsive img1 " alt="">  </li>
-        <li> <img src="assets/img/a.png" class="img-responsive img2" alt="">  </li>
-         <li> <img src="assets/img/r.png" class="img-responsive img3" alt="">  </li>
-        <li> <img src="assets/img/i.png" class="img-responsive img4" alt="">  </li>
-        <li> <img src="assets/img/e.png" class="img-responsive img3" alt="">  </li>
-        <li> <img src="assets/img/l.png" class="img-responsive img5" alt="">  </li>
-         <li> <img src="assets/img/aa.png" class="img-responsive img6" alt="">  </li>
-        <li>C</li>
-        <li>E</li>
-        <li>R</li>
-        <li>N</li>
-        <li>A</li>
-       <li> <img src="assets/img/line.png" class="img-responsive " alt="">  </li>
-    </ul>
-
-    <!--Works-->
 
 
 <script src="vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/anim.js"></script>
-   
+<script type="text/javascript" src="js/acercademi.js"></script>
+
+<script>
+  var contador = 1;
+
+  function cambiarClase() {
+    if (contador == 1) {
+      document.getElementById('elemento').className = 'animated slideInLeft';
+      contador = 2;
+    } else {
+      document.getElementById('elemento').className = '';
+      contador = 1;
+    }
+  }
+
+  document.getElementById('accion').onclick = cambiarClase;
+</script>
+
+
+
+
 </body>
 
 </html>
