@@ -76,17 +76,12 @@ Stylos de animacion inicial
  /* outline: 2px solid red;*/
 }
 
-.container-animation ul{
-  width: 75%;
-  margin-left: 5rem;
-/*outline: 2px solid blue*/
-  
-}
-
 .text-animation{
+  width: 65%;
   list-style: none;
+  outline: 2px solid blue;
   position: absolute;
-  left:40%;
+  left:42%;
   top:50%;
   transform: translateX(-43%) translateY(-50%);
 }
@@ -118,7 +113,7 @@ opacity: 1;
 .text-animation.hidd li:nth-child(10) {transform: translateX(-20px) translateY(100px);}
 .text-animation.hidd li:nth-child(11) {transform: translateX(300px) translateY(-50px);}
 .text-animation.hidd li:nth-child(12) {transform: translateX(300px) translateY(120px);}
-.text-animation.hidd li:nth-child(13) {transform: translateX(-100px) translateY(20px);}
+.text-animation.hidd li:nth-child(13) {transform: translateX(-30px) translateY(-100px);}
 
 .img1 {
   width: 21rem;
@@ -164,12 +159,13 @@ display: table;
 font-family: 'Open Sans Condensed', sans-serif;
 left: 30%;
 top: 2%;
-width: 95%;
+width: 70%;
 height: 600px;
 text-align: center;
 padding: 0;
 margin: auto;
-font-size: 20px;
+font-size: 30px;
+outline: 2px solid red;
 }
 
 
@@ -181,7 +177,7 @@ font-size: 20px;
   -moz-transition: all 500ms;
   -webkit-transition: all 500ms;
   transition: all 500ms;
-
+  outline: 2px solid red;
 }
 
 @keyframes texto {
@@ -194,6 +190,137 @@ font-size: 20px;
 
 /***********************PRUEBA*****************************/
 
+/*********************************************************
+footer ---slider css
+**********************************************************/
+.color-fondo {
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 10px 0px 15px #939393;
+  font-size: 2rem;
+  position: relative;
+  left: 30%;
+  outline: 2px solid rgb(55, 0, 255);
+  width: 100%;
+  height: 600px;
+}
+
+.slider{
+  text-align: center;  
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0; 
+  height: 300px;  
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 60s infinite;
+  animation-timing-function: ease-in;
+  margin:0;
+  padding: 0;
+}
+.slider ul img{  
+  display: inline-block; 
+  padding: 0;
+  margin: 0; 
+  outline: 2px solid red;
+  width: 100%;
+  height: 300px;
+ 
+}
+
+.slider ul li img:hover {
+  filter: grayscale(80%);
+}
+
+.slider li{
+  display: inline-block;
+  list-style: none;
+  width: 100%;  
+  font-size:3vw;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0;
+}
+
+/*
+.title-acercademi{
+  background:rgba(0, 0, 0, 0.2);
+  color: white;
+  opacity: 0.5;
+  width: 100%;  
+  height: 300px;
+  margin-top:-300px;
+
+}
+
+.title-acercademi .txt{
+  width: 50%;
+  height: 400px;
+  color: white;
+  display: inline-block;
+  outline: 2px solid red;
+  margin-left: 37%;
+  padding: 2rem;
+  color: white;
+}*/
+
+@keyframes cambio{
+  0% { margin-left: 0;}
+  20% { margin-left: 0;}
+  40%{ margin-left:-100%;}
+  60%{ margin-left:-100%;}
+  80% { margin-left: -200%} 
+  100% { margin-left: -200%}
+}
+
+.dateImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-top: -20%;
+  color: white;
+
+}
+.btn-f{
+  font-size: 2rem;
+  margin: 0.5rem;
+  }
+.btn-f a{
+  color: #081c24;
+  background: #eaf8f2;
+  padding: 1rem;
+  border-radius: 70%;
+}
+.btn-f a:hover {
+  color: #01d277;
+  
+}
+.position-footer{
+  display: inline-block;
+  position: absolute;
+  top:1%;
+ 
+
+}
+/**Date de Footer***/
+  .container-footer-date{
+  position: absolute;
+  display: inline-block; 
+  right:0rem;
+
+}
+
+.container-footer-date ul {
+  float: left;
+  margin-left: 4rem;
+  line-height: 3rem;
+}
+.container-footer-date ul li a:hover {
+  color: #01d277;
+}
 
 
 /**************************************
