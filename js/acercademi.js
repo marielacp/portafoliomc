@@ -3,24 +3,26 @@ $(document).ready(function () {
     $("#acerca").click(function (event) {
         $(".container-acercademi").fadeIn(4000);
     });
- 
 
-
-
-$(function () {
-    var $jittery = $('.texto'),
-        aText = $jittery.text().split(''),
-        letters = '';
-
-    for (var i = 0; i < aText.length; i++) {
-        letters += '<span>' + aText[i] + '</span>';
-    }
-
-    $jittery.empty().append(letters);
-
-    $.each($('span', $jittery), function (i) {
-        $(this).css('animation-delay', '-' + i + '70ms');
+    $(function () {
+        $(".slides").slidesjs({
+            play: {
+                active: true, // [boolean] Generate the play and stop buttons. // You cannot use your own buttons. Sorry. 
+                effect: "slide",
+                // [string] Can be either "slide" or "fade". 
+                interval: 4000,
+                // [number] Time spent on each slide in milliseconds. 
+                auto: true,
+                // [boolean] Start playing the slideshow on load. 
+                swap: true,
+                // [boolean] show/hide stop and play buttons 
+                pauseOnHover: false,
+                // [boolean] pause a playing slideshow on hover 
+                restartDelay: 3000
+                //[number] restart delay on inactive slideshow 
+            }
+        });
     });
-});
+
 
 });

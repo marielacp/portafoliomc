@@ -8,14 +8,24 @@ body {
   background-color: rgb(209, 236, 236);
 }
 
-
+.container-works{
+position: relative;
+left: 30%;
+}
 
 .main {
-  width: 90%;
+  width: 60%;
   max-width: 1000px;
   margin: 20px auto;
-  /* overflow: hidden;*/
+  /* overflow: hidden;
+  outline: 2px solid red;
+  */
 }
+
+.title-work1{
+   /* outline: 2px solid red;*/
+}
+
 
 .slides {
   width: 100%;
