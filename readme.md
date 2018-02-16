@@ -1,14 +1,4 @@
-# PROYECTO: Portafolio
+# PROYECTO: Portafolio EN CONSTRUCCION
 
-
-![Imágenes](assets/img/logo4.png) 
-
-# 
-	
-
-    
-### METODOLOGIA USADA
-
-•   HTML, JS,CSS3
 
 

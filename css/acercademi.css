@@ -11,18 +11,17 @@ body{
 Stylos de seccion acerca de mi.
 /**************************************/
 .container-acercademi{
-position: relative;
-display: table;
-font-family: 'Open Sans Condensed', sans-serif;
-left: 30%;
-top: 2%;
-width: 70%;
-
-text-align: center;
-padding: 0;
-margin: auto;
-font-size: 30px;
-outline: 2px solid red;
+  position: relative;
+  display: table;
+  font-family: 'Open Sans Condensed', sans-serif;
+  left: 30%;
+  top: 2%;
+  width: 70%;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  font-size: 30px;
+  outline: 2px solid red;
 
 }
 
