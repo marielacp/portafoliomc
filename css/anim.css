@@ -18,7 +18,7 @@ mostaza:#f3d75,#e9bf1f
   position:fixed;
   background-color:#012138;
   width: 18%;
-  height: 900px;
+  height: 1500px;
   z-index: 9999;
   color:#e9bf1f;
 }
@@ -82,7 +82,7 @@ Stylos de animacion inicial
   padding: 0;
   margin: 0;
 
- /* outline: 2px solid red;*/
+ /*outline: 2px solid red;*/
 }
 
 .text-animation{
@@ -170,12 +170,14 @@ Stylos de seccion acerca de mi. Slider
   box-shadow: 10px 0px 15px #939393;
   font-size: 1.5rem;
   position: relative;
-  left: 30%;
-  /*outline: 2px solid rgb(55, 0, 255);*/
+ /* left: 30%;*/
+  outline: 2px solid rgb(55, 0, 255);
   width: 100%;
   height: 640px;
   margin: 0;
   }
+
+
 
 .slider{
   text-align: center;  
@@ -231,10 +233,8 @@ stylos acercademi-textos
   margin-top:2rem;
   border-radius:100%;
   width: 50px;
-  height: 50px;
- 
-/*  box-shadow: 15px 0px 30px #939393;*/
- 
+  height: 50px; 
+/*  box-shadow: 15px 0px 30px #939393;*/ 
 }
 
 .img-txt:hover{
@@ -252,8 +252,8 @@ stylos acercademi-textos
   background:rgba(0, 0, 0, 0.7);
   color: white;
   opacity: 0.5;
-  margin-left: 28rem;
-  width: 71.5%;  
+  margin-left: 28.5rem;
+  width: 71.6%;  
   height: 200px;
   margin-top:-200px;
   box-shadow: 15px 0px 30px #939393;
@@ -280,7 +280,6 @@ stylos acercademi-textos
 }
 
 
-
 /**************************************
 skill
 ***************************************/
@@ -291,12 +290,12 @@ skill
   box-shadow: 15px 0px 30px #939393;
 
 }
-.lamina{
+/*.lamina{
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 300px;
   margin-top:-20rem;
-}
+}*/
 
 
 
@@ -307,80 +306,198 @@ MEDIA QUERY
 @media only screen and
  (min-device-width: 250px) and 
  (max-device-width: 767px) {
-.container-menu {
-  position: fixed;
-  background-color: #017d7b;
-  width: 25%;
-  height: 900px;
+
+  /*****************************/
+
+.img-menu{
+  border-radius: 100px;
+  width: 100px;
+  height:100px;
 }
 
+.list-menu{
+  padding:0;
+  font-size: 1.2rem;
+}
 
-.img1{
-  width: 6rem;
-  height: 10rem;
-  margin: 0;
-   
+.list-menu li{
+  width: 75%;
 }
-.img2 {
-  width: 1.5rem;
-  height:4rem;
-  margin: 0;
-  padding: 0;
-}
-.img3 {
-  width: 1.1rem;
-  height:5rem;
-  margin: 0;
-  padding: 0;
-}
-.img4 {
-   width: 2rem;
-   height:5rem;
-  margin: 0;
-  padding: 0;
-}
-.img5 {
-  width: 1rem;
-  height:7rem;
-  margin: 0;
-  padding: 0;
-}
-.img6 {
-  width: 3.5rem;
-  height:5rem;
-  margin: 0;
-  padding: 0;
-  
-}
-  .text-animation {
-    list-style: none;
-   position: absolute;
-    left: 30%;
-    top: 50%;
-    transform: translateX(-35%) translateY(-50%);
-  }
-.text-animation li {
 
-  margin-left: 0px;
+.list-menu li:hover{ 
+  padding-left: 1.2rem; 
+}
 
-}
-.container-animation {
- position: absolute;
-  left: 30%
-  top: 2%;
-  width: 80%;
-  height: 400;
-  text-align: center;
-}
-.text-animation li { 
-  font-size: 2em;
+/********Animacion*************/
+
+.text-animation {
+  width: 90%;  
+  left: 40%;
+  top: 50%;
  
 }
+.img1 {
+  width: 4rem;
+  height: 7rem;
+}
+
+.img2 {
+  width: 3rem;
+}
+
+.img3 {
+  width: 2rem;
+}
+
+.img4 {
+  width: 1rem;
+}
+
+.img5 {
+  width: 1rem;
+}
+
+.img6 {
+  width: 5rem;
+}
+
+
+.text-animation li {
+  font-size: 3rem;
+}
+
+/********Slider acerca de mi****************/
+.color-fondo{
+/* outline: 2px solid red;*/
+  height: 1000px;
+}
+.background-img{
+  height: 100px;
+}
+ .title{
+   font-size: 2rem;   
+ }
+ .txt{
+   font-size: 1.1rem;
+ }
+.img-txt img {
+  margin-top: 2rem; 
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+ box-shadow: 15px 0px 30px #939393;
+}
+
+.title-acercademi {
+  margin-left: 7rem;
+  width: 71.5%;
+  height:10rem;
+  margin-top: -200px;  
+}
+
+.title-acercademi .title {
+  width: 100%;
+  margin-left: 3%;
+}
+
+
 }
 
 @media only screen and 
 (min-device-width: 768px) and 
-(max-device-width: 1127px) {
+(max-device-width: 1024px) {
 
-  
+.img-menu{
+  border-radius: 100px;
+  width: 100px;
+  height:100px;
+}
+
+.list-menu{
+  padding:0;
+  font-size: 1.2rem;
+}
+
+.list-menu li{
+  width: 75%;
+}
+
+.list-menu li:hover{ 
+  padding-left: 1.2rem; 
+}
+
+/********Animacion*************/
+
+.text-animation {
+  width: 90%;  
+  left: 40%;
+  top: 50%;
+ 
+}
+.img1 {
+  width: 12rem;
+  height: 25rem;
+}
+
+.img2 {
+  width: 6rem;
+}
+
+.img3 {
+  width: 5rem;
+}
+
+.img4 {
+  width: 4rem;
+}
+
+.img5 {
+  width: 4rem;
+}
+
+.img6 {
+  width: 9rem;
+}
+
+.text-animation li {
+  font-size: 5rem;
+}
+
+/********Slider acerca de mi****************/
+.color-fondo{
+/* outline: 2px solid red;*/
+  height: 650px;
+}
+.background-img{
+  height: 150px;
+}
+ .title{
+   font-size: 3rem;   
+ }
+ .txt{
+   font-size: 1.3rem;
+   height: 15rem;
+ }
+.img-txt img {
+  margin-top: 2rem; 
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+ box-shadow: 15px 0px 30px #939393;
+}
+
+.title-acercademi {
+  margin-left: 16rem;
+  width: 71.5%;
+  height:15rem;
+  margin-top: -200px;  
+}
+
+.title-acercademi .title {
+  width: 100%;
+  margin-left: 3%;
+}
+
 }
