@@ -343,13 +343,6 @@ MEDIA QUERY
  (max-device-width: 767px) {
 
   /*****************************/
-.container-menu {
-
-
-}
-.container-animation {
-
-}
 
 .text-animation{
   position: absolute;
@@ -456,7 +449,7 @@ MEDIA QUERY
 padding:0;
 margin: 0;
 height: 7rem;
-width: 100%;
+width: 70%;
 /*outline: 2px solid red;*/
 
 }
@@ -477,7 +470,8 @@ and (max-device-width: 768px) {
 .skil{
   position: relative;
   display: inline-block;
-  width: 100%;
+  margin-left:15%;
+  width: 70%;
   height: 350px;
  /* outline: 2px solid red;*/
 }
@@ -584,4 +578,20 @@ and (max-device-width: 768px) {
   width: 100%;
   margin-left: 3%;
 }
+
+.skil {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-left:0%;
+  height: 350px;
+  /* outline: 2px solid red;*/
+}
+
+.img-skill {
+  margin-bottom: 10rem;
+  width: 100%;
+  height: 15rem;
+}
+
 }
