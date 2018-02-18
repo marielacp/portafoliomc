@@ -11,12 +11,13 @@ body {
 
 .container-works{
   position: relative;
+  margin-left: 2rem;
  /* left: 30%;*/
   font-family: 'Courgette', cursive;
 }
 
 .main {
-  width: 60%;
+  width: 100%;
   max-width: 1000px;
   margin: 20px auto;
   /* overflow: hidden;
@@ -32,6 +33,7 @@ body {
 
 .slides {
   width: 100%;
+  margin-left: -3rem;/***********************/
 }
 
 .slides img {
