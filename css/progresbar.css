@@ -1,0 +1,83 @@
+.container-skills1{
+  position: relative;
+  padding: 2rem;
+}
+#habilidades{  
+  width: 100%;
+  margin: 100px auto;/*para centrar dentro de grillas*/
+  position: relative;
+  list-style: none;
+  padding: 30px 0px;  
+}
+#habilidades h3{
+  color:#012138;
+}
+
+.habilidades p{
+  font-size: 10px;
+}
+
+#habilidades li{
+  width: 107%;
+  height: 27px;;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px #969696 inset, 0px 1px 0px #ffff;
+  color: white;
+ 
+}
+.img-widt{
+  font-size: 2.6rem;
+  color:#012138;
+}
+#habilidades img{
+  width: 6%;
+  display: inline-block;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.barra{
+  border-radius: 0px 10px 10px 0px;
+  height: 26px;
+  margin: 1px 2px;
+  position: absolute;
+  box-shadow:0px 1px 0px #ffff, 0px 1px #969696 inset;
+}
+.bootstrap{
+  background-color: #4ebdc6;
+}
+.materialize{
+  background-color: #00ade5;
+}
+
+
+.html{
+  background-color: #0066cc;
+}
+.css{
+background-color: #2a2d96;
+
+}
+.figma{
+ background-color: #150c65;
+}
+
+.marvel {
+  background-color: #00697f;
+}
+
+.ie {
+  background-color: #a4cd19;
+}
+.adap{
+  background-color: #64943e;
+}
+.te {
+  background-color: #89ba47;
+}
+.rp {
+  background-color: #cee84e;
+}
+.cm{
+  background-color: #a7bc68;
+}

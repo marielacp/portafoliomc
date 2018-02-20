@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  
+  //SLIDER PROYECTOS.
     $("#acerca").click(function (event) {
         $(".container-acercademi").fadeIn(4000);
     });
@@ -23,6 +23,9 @@ $(document).ready(function () {
             }
         });
     });
+
+//PROGRESBAR
+
 
 
 });
