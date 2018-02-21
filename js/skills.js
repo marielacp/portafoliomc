@@ -1,5 +1,5 @@
 $(document).ready(function () {
- 
+     
 //PROGRESBAR
 $(function(){
     setInterval(function(){
@@ -55,50 +55,7 @@ setInterval(function () {
         .animate({ "width": "0%" })
         .animate({ "opacity": "1" })
 }, 500);
-
-setInterval(function () {
-    $(".ie").animate({ "width": "0%" })
-        .animate({ "width": "100%" }, 2000)
-        .delay(7000)
-        .animate({ "opacity": "0" }, 1000)
-        .animate({ "width": "0%" })
-        .animate({ "opacity": "1" })
-}, 500);
-
-setInterval(function () {
-    $(".adap").animate({ "width": "0%" })
-        .animate({ "width": "100%" }, 2000)
-        .delay(7000)
-        .animate({ "opacity": "0" }, 1000)
-        .animate({ "width": "0%" })
-        .animate({ "opacity": "1" })
-}, 300);
-
-setInterval(function () {
-    $(".te").animate({ "width": "0%" })
-        .animate({ "width": "100%" }, 2000)
-        .delay(7000)
-        .animate({ "opacity": "0" }, 1000)
-        .animate({ "width": "0%" })
-        .animate({ "opacity": "1" })
-}, 600);
-
-setInterval(function () {
-    $(".rp").animate({ "width": "0%" })
-        .animate({ "width": "100%" }, 2000)
-        .delay(7000)
-        .animate({ "opacity": "0" }, 1000)
-        .animate({ "width": "0%" })
-        .animate({ "opacity": "1" })
-}, 250);
-
-setInterval(function () {
-    $(".cm").animate({ "width": "0%" })
-        .animate({ "width": "100%" }, 2000)
-        .delay(7000)
-        .animate({ "opacity": "0" }, 1000)
-        .animate({ "width": "0%" })
-        .animate({ "opacity": "1" })
-}, 250);
+/*
+*/
 });
 });

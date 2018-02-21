@@ -1,13 +1,14 @@
 .container-skills1{
   position: relative;
-  padding: 2rem;
+  margin: 2rem;
+
 }
 #habilidades{  
   width: 100%;
-  margin: 100px auto;/*para centrar dentro de grillas*/
+ /*para centrar dentro de grillas*/
   position: relative;
   list-style: none;
-  padding: 30px 0px;  
+  padding: 0px 0px; 
 }
 #habilidades h3{
   color:#012138;
@@ -23,9 +24,9 @@
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 1px #969696 inset, 0px 1px 0px #ffff;
-  color: white;
- 
+  color: #150c65;
 }
+
 .img-widt{
   font-size: 2.6rem;
   color:#012138;
@@ -39,7 +40,7 @@
 .barra{
   border-radius: 0px 10px 10px 0px;
   height: 26px;
-  margin: 1px 2px;
+  margin: 1px 0px;
   position: absolute;
   box-shadow:0px 1px 0px #ffff, 0px 1px #969696 inset;
 }
@@ -67,17 +68,6 @@ background-color: #2a2d96;
 }
 
 .ie {
-  background-color: #a4cd19;
+  background-color: #e5fc9c;
 }
-.adap{
-  background-color: #64943e;
-}
-.te {
-  background-color: #89ba47;
-}
-.rp {
-  background-color: #cee84e;
-}
-.cm{
-  background-color: #a7bc68;
-}
+
