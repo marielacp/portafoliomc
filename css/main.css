@@ -372,12 +372,12 @@ and (max-device-width: 1024px) {
 
 @media only screen 
 and (min-device-width: 1025px)
-/*and (max-device-width: 1550px)*/
+and (max-device-width: 1550px)
  {
 .container-speach {   
   font-size: 1.2em;
-  margin-top: 35rem;
-  padding: 7em;
+  margin: 35rem;
+  padding: 7rem;
 }
 
 .fondo {
@@ -407,8 +407,6 @@ margin-top: 17rem
 .cont-speach{
   display: inline-block;
   text-align: center; 
-  
-  
   
 }
 .container-speach{
