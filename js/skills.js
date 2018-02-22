@@ -4,7 +4,7 @@ $(document).ready(function () {
 $(function(){
     setInterval(function(){
       $(".bootstrap").animate({"width":"0%"})
-        .animate({"width":"80%"},2000)
+        .animate({"width":"100%"},2000)
         .delay(7000)
         .animate({"opacity":"0"},1000)
         .animate({"width":"0%"})
