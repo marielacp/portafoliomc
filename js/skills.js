@@ -2,9 +2,19 @@ $(document).ready(function () {
      
 //PROGRESBAR
 $(function(){
+
+    setInterval(function () {
+        $(".separador").animate({ "width": "0%" })
+            .animate({ "width": "100%" }, 2000)
+            .delay(7000)
+            .animate({ "opacity": "0" }, 1000)
+            .animate({ "width": "0%" })
+            .animate({ "opacity": "1" })
+    }, 100);
+
     setInterval(function(){
       $(".bootstrap").animate({"width":"0%"})
-        .animate({"width":"100%"},2000)
+        .animate({"width":"93%"},2000)
         .delay(7000)
         .animate({"opacity":"0"},1000)
         .animate({"width":"0%"})
@@ -13,7 +23,7 @@ $(function(){
 
   setInterval(function () {
     $(".materialize").animate({ "width": "0%" })
-      .animate({ "width": "70%" }, 2000)
+      .animate({ "width": "93%" }, 2000)
       .delay(7000)
       .animate({ "opacity": "0" }, 1000)
       .animate({ "width": "0%" })
@@ -22,7 +32,7 @@ $(function(){
 
 setInterval(function () {
     $(".html").animate({ "width": "0%" })
-        .animate({ "width": "95%" }, 2000)
+        .animate({ "width": "93%" }, 2000)
         .delay(7000)
         .animate({ "opacity": "0" }, 1000)
         .animate({ "width": "0%" })
@@ -31,7 +41,7 @@ setInterval(function () {
 
 setInterval(function () {
     $(".css").animate({ "width": "0%" })
-        .animate({ "width": "80%" }, 2000)
+        .animate({ "width": "93%" }, 2000)
         .delay(7000)
         .animate({ "opacity": "0" }, 1000)
         .animate({ "width": "0%" })
@@ -40,7 +50,7 @@ setInterval(function () {
 
 setInterval(function () {
     $(".figma").animate({ "width": "0%" })
-        .animate({ "width": "83%" }, 2000)
+        .animate({ "width": "93%" }, 2000)
         .delay(7000)
         .animate({ "opacity": "0" }, 1000)
         .animate({ "width": "0%" })
@@ -49,7 +59,7 @@ setInterval(function () {
 
 setInterval(function () {
     $(".marvel").animate({ "width": "0%" })
-        .animate({ "width": "75%" }, 2000)
+        .animate({ "width": "93%" }, 2000)
         .delay(7000)
         .animate({ "opacity": "0" }, 1000)
         .animate({ "width": "0%" })
@@ -58,4 +68,4 @@ setInterval(function () {
 /*
 */
 });
-});
+})
