@@ -1,3 +1,3 @@
 #Portafolio
-![Imágenes](assets/img/portafolio.png) 
+![Imágenes](assets/img/fondoport.jpg) 
 
