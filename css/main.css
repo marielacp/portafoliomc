@@ -63,32 +63,12 @@ body{
 .navbar-inverse .navbar-form {
   border-color: #fd0574;
 }
-/*
-.navbar-inverse .navbar-brand:hover {
-    color: #606167;
-  font-size: 1.2rem;
-}
-.container a {
-  color: #fd0574;
-   font-size: 1.2rem;
-}
 
-.container a:hover {
-  color: #e9bf1f;
-  font-size: 1.2rem;
-}
-*/
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a{
   background-color: #efbc00;
 }
-
-/*
-.navbar-inverse .navbar-nav>.active>a:hover {
-  color: #606167;
-  background-color:#fd0574;
-  }*/
   
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
@@ -105,7 +85,7 @@ body{
 
 .opaque-navbar.opaque {
     background-color:#e6edfe;
-    height: 60px;
+    height: 70px;
     transition: background-color .5s ease 0s;
     
 }
@@ -167,7 +147,8 @@ height: 100px;
 .container-contact{
   display: inline-block;
   border-radius: 2rem;
-  width: 70%;
+  width: 81%;
+  height: 23rem;
   padding: 2rem;
   box-shadow: 5px 0px 10px; 
   margin-left: 20rem 0rem 20rem 0rem;
@@ -191,6 +172,13 @@ height: 100px;
   
 }
 
+.speach {
+  padding: 5rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .container-text-ms{
   position: relative;
   background: linear-gradient(#dbfedc, #fff6f0);
@@ -200,6 +188,41 @@ height: 100px;
   padding: 1em;
 }
 
+/*************skills**********/
+.container-skillsc{
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.card{
+  width: 28%;  
+  float: left;
+  margin-left:1rem;
+  margin-top: .5rem;
+  border: 1px solid #fd0574;
+}
+.card-img{   
+   padding: 1rem;
+   
+}
+.card-body{
+ border-top: 1px solid #fd0574;
+ margin: 0px;
+}
+
+.card-title{
+  background-color: #fd0574;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  height: 2rem;
+}
+.card-text{
+  font-size: 1rem;
+  height: 9rem;
+  text-align: center;
+}
 /*********titulo proyectos*******/
 .title-proyectos{
   font-weight: bold;
@@ -262,15 +285,11 @@ height: 100px;
   width: 100%;
   height: 5rem;
 
-  /*background-color: rgba(0,0,0,0.7);
-  background: linear-gradient(#ffff, #19698c);
-  */
-  
 }
 
 .float-skills-personales{ 
   display: inline-block;
- display: table;
+ /*display: table;*/
 }
 
 .sombras{
@@ -349,7 +368,7 @@ and (max-device-width: 1024px) {
 .container-contact {
   margin-top: 13rem;
   width: 100%;
-  height: 55vh;
+  height: 28rem;
   
 }
 .container-animacion-inicio{
@@ -360,6 +379,12 @@ and (max-device-width: 1024px) {
   padding: 2em;
 }
 
+.speach {
+  padding: 5rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+}
 .container-text-ms {
   position: relative;
   /* outline: 2px solid red;*/
@@ -367,7 +392,13 @@ and (max-device-width: 1024px) {
   padding: .2em;
  }
 
-
+.card {
+  width: 15%;
+  float: left;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  border: 1px solid #fd0574;
+}
 
 }
 
@@ -402,7 +433,7 @@ and (max-device-width: 1550px)
 .container-contact {
   margin-top: 13rem;
   width: 100%;
-  height: 40vh;
+  height: 28rem;
   font-size: 1.8rem;
   
 }
@@ -426,6 +457,41 @@ margin-top: 17rem
   margin-left: auto;
   
 }
+.card {
+  width: 15%;
+  float: left;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  border: 1px solid #fd0574;
+}
+}
+
+@media only screen 
+and (min-device-width: 1550px)
+and (max-device-width: 2560px)
+ {
+
+
+.container-contact {
+  margin-top: 8rem;
+  width: 100%;
+  height: 25rem;
+  font-size: 1.8rem;
 
 }
 
+.speach {
+  padding: 5rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card {
+  width: 15%;
+  float: left;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  border: 1px solid #fd0574;
+}
+}
